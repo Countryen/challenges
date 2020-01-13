@@ -51,14 +51,15 @@
     <Compile Include="Challenge.cs" />
     <Compile Include="ChallengeInputOutput.cs" />
     <Compile Include="ChallengeInputOutputCollection.cs" />
+    <Compile Include="Daily\ExampleNewChallenge.cs" />
     <Compile Include="Extra\PhilosopherProblem.cs" />
     <Compile Include="Hard\A5.cs" />
     <Compile Include="IAutomaticChallenge.cs" />
     <Compile Include="Medium\ABCSTR.cs" />
-    <Compile Include="NewChallenge.cs" />
+    <Compile Include="ExampleNewChallenge.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TestEchoChallenge.cs" />
+    <Compile Include="ExampleTestEchoChallenge.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

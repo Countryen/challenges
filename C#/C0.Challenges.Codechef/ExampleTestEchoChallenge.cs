@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace C0.Challenges.Codechef
 {
-    class TestEchoChallenge : Challenge<string,string>
+    class ExampleTestEchoChallenge : Challenge<string,string>, IAutomaticChallenge
     {
-        public TestEchoChallenge() : base(Console.WriteLine)
+        public ExampleTestEchoChallenge() : base(Console.WriteLine)
         { }
 
-        public override string Name { get => "TestEchoChallenge"; }
-        public override string Code { get => "C0ECHOTEST"; }
+        public override string Name { get => "Example Test Echo"; }
+        public override string Code { get => "C0XAMPLETESTECHO"; }
         public override string Url { get => "http://this.test.has.no.url"; }
         public override string Description { get => "This is a test challenge simply to test the class \"Challenge\". It returns any input"; }
         public override string Notes { get => "Don't Run() this class directly!"; }

@@ -12,12 +12,12 @@ namespace C0.Challenges.Codechef
     ///  and change the types for the methods accordingly (see comments).
     /// PaR, 31. May 2017 @ C0 | VS2017
     /// </summary>
-    class NewChallenge : Challenge<object, object>
+    class ExampleNewChallenge : Challenge<object, object>
     {
-        public NewChallenge() : base(Console.WriteLine)
+        public ExampleNewChallenge() : base(Console.WriteLine)
         { }
 
-        public NewChallenge(Action<object> resultReceiver) : base(resultReceiver)
+        public ExampleNewChallenge(Action<object> resultReceiver) : base(resultReceiver)
         { /* Change type-param of the Action<> above to Tout */ }
 
         public override string Name { get => "Name of the Challenge"; }

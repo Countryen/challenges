@@ -9,32 +9,13 @@ using System.Threading.Tasks;
 namespace C0.Challenges.Codechef
 {
     class Program
-    { 
-    
-        static void Main(string[] args)
+    {
+
+        static void Main()
         {
-            Extra.Table table = new Extra.Table();
-            Extra.Philosopher p1 = new Extra.PhilosopherWrong(table.Plates[0], "P1");
-            Extra.Philosopher p2 = new Extra.PhilosopherWrong(table.Plates[1], "P2");
-            Extra.Philosopher p3 = new Extra.PhilosopherWrong(table.Plates[2], "P3");
-            Extra.Philosopher p4 = new Extra.PhilosopherWrong(table.Plates[3], "P4");
-
-            Extra.Philosopher o1 = new Extra.PhilosopherRight(table.Plates[0], "UNTEN");
-            Extra.Philosopher o2 = new Extra.PhilosopherRight(table.Plates[1], "RECHTS");
-            Extra.Philosopher o3 = new Extra.PhilosopherRight(table.Plates[2], "OBEN");
-            Extra.Philosopher o4 = new Extra.PhilosopherRight(table.Plates[3], "LINKS");
-
-            o1.Start();
-            o2.Start();
-            o3.Start();
-            o4.Start();
-            while (true)
-                Console.ReadLine();
-
-
-        //RunManually();
-        //RunAutomatically();
-    }
+            //RunManually();
+            RunAutomatically();
+        }
 
         /// <summary>
         /// 1. Runs all <see cref="IAutomaticChallenge"/> in the current Assembly.
@@ -74,15 +55,15 @@ namespace C0.Challenges.Codechef
 
         private static void RunManually()
         {
-            var first = new TestEchoChallenge();
+            var first = new ExampleTestEchoChallenge();
             var firstIO = new ChallengeInputOutputCollection<string, string>();
             firstIO.Add("Hello World", "Hello World");
-            //RunChallengeManually(first, firstIO, true);
+            RunChallengeManually(first, firstIO, true);
 
             var second = new Beginner.HS08TEST();
             var secondIO = new ChallengeInputOutputCollection<double[], double>();
             secondIO.Add(new double[] { 50D, 150D }, 99.5D);
-            //RunChallengeManually(second, secondIO, false);
+            RunChallengeManually(second, secondIO, false);
 
             var third = new Beginner.ACBALL();
             var thirdIO = new ChallengeInputOutputCollection<string[], string>();
@@ -90,7 +71,7 @@ namespace C0.Challenges.Codechef
             thirdIO.Add(new string[] { "WBBBWBWBWBWBBBWBBW", "WBBBWBWBWBWBBBWBBW" }, "BWWWBWBWBWBWWWBWWB");
             thirdIO.Add(new string[] { "W", "W" }, "B");
             thirdIO.Add(new string[] { "BBBBW", "WBBBB" }, "BWWWB");
-            //RunChallengeManually(third, thirdIO, false);
+            RunChallengeManually(third, thirdIO, false);
         }
 
         /// <summary>

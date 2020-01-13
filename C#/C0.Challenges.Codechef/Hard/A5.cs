@@ -18,7 +18,7 @@ namespace C0.Challenges.Codechef.Hard
         public A5(Action<(int, int)> resultReceiver) : base(resultReceiver)
         { }
 
-        private static Action<(int cost, int numberOFDistinctWays)> _receiver = (output) => { Console.WriteLine($"({output.cost}, {output.numberOFDistinctWays})"); };
+        private static readonly Action<(int cost, int numberOFDistinctWays)> _receiver = (output) => { Console.WriteLine($"({output.cost}, {output.numberOFDistinctWays})"); };
 
         public override string Name { get => "Packing the Boxes"; }
         public override string Code { get => "A5"; }

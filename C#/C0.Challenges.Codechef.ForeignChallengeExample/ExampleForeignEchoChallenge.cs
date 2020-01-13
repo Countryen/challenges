@@ -3,17 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using C0.Challenges.Codechef;
 
 namespace C0.Challenges.Codechef.ForeignChallengeExample
 {
-    class TestForeignEchoChallenge : Challenge<string, string>, IAutomaticChallenge
+    class ExampleForeignTestEchoChallenge : Challenge<string, string>, IAutomaticChallenge
     {
-        public TestForeignEchoChallenge() : base(Console.WriteLine)
+        public ExampleForeignTestEchoChallenge() : base(Console.WriteLine)
         { }
 
-        public override string Name { get => "TestEchoChallenge"; }
-        public override string Code { get => "C0ECHOTEST"; }
+        public override string Name { get => "Example Foreign Test Echo"; }
+        public override string Code { get => "C0EXAMPLEFOREIGNTESTECHO"; }
         public override string Url { get => "http://this.test.has.no.url"; }
         public override string Description { get => "This is a test challenge simply to test the class \"Challenge\". It returns any input"; }
         public override string Notes { get => "Don't Run() this class directly!"; }

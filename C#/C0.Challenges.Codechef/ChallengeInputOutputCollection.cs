@@ -18,7 +18,7 @@ namespace C0.Challenges.Codechef
 
         public void AddRange(IEnumerable<ChallengeInputOutput<Tin, Tout>> inputOutputs)
         {
-            InputOutputs.AddRange(InputOutputs);
+            InputOutputs.AddRange(inputOutputs);
         }
 
         public ChallengeInputOutput<Tin, Tout> this[int index] { get => InputOutputs[index]; set => InputOutputs[index] = value; }
