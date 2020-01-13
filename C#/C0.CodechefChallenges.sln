@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C0.CodechefChallenges", "C0.CodechefChallenges\C0.CodechefChallenges.csproj", "{FDC3AB4F-EC74-4B24-972F-40C83FB68357}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C0.CodeChefChallenges.ForeignChallenges", "C0.CodeChefChallenges.ForeignChallenges\C0.CodeChefChallenges.ForeignChallenges.csproj", "{5871F54C-2325-4F77-A232-C55AB060BB9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDC3AB4F-EC74-4B24-972F-40C83FB68357}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDC3AB4F-EC74-4B24-972F-40C83FB68357}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDC3AB4F-EC74-4B24-972F-40C83FB68357}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDC3AB4F-EC74-4B24-972F-40C83FB68357}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5871F54C-2325-4F77-A232-C55AB060BB9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5871F54C-2325-4F77-A232-C55AB060BB9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5871F54C-2325-4F77-A232-C55AB060BB9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5871F54C-2325-4F77-A232-C55AB060BB9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
