@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace C0.CodechefChallenges
+namespace C0.Challenges.Codechef
 {
     public class ChallengeInputOutputCollection<Tin, Tout>
     {

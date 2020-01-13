@@ -1,4 +1,4 @@
-﻿namespace C0.CodechefChallenges
+﻿namespace C0.Challenges.Codechef
 {
     /// <summary>
     /// Only for Reflection.

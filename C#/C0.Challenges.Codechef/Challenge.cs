@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace C0.CodechefChallenges
+namespace C0.Challenges.Codechef
 {
     /// <summary>
     /// Part (Abstract baseclass) of the testbed for challenges from www.codechef.com.

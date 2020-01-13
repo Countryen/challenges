@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace C0.CodechefChallenges.Hard
+namespace C0.Challenges.Codechef.Hard
 {
     /// <summary>
     /// Challenge.

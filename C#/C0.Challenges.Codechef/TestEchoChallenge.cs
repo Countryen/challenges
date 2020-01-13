@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using C0.CodechefChallenges;
 
-namespace C0.CodechefChallenges.ForeignChallenges
+namespace C0.Challenges.Codechef
 {
-    class TestForeignEchoChallenge : Challenge<string, string>, IAutomaticChallenge
+    class TestEchoChallenge : Challenge<string,string>
     {
-        public TestForeignEchoChallenge() : base(Console.WriteLine)
+        public TestEchoChallenge() : base(Console.WriteLine)
         { }
 
         public override string Name { get => "TestEchoChallenge"; }
@@ -18,14 +17,14 @@ namespace C0.CodechefChallenges.ForeignChallenges
         public override string Description { get => "This is a test challenge simply to test the class \"Challenge\". It returns any input"; }
         public override string Notes { get => "Don't Run() this class directly!"; }
         public override string Rating { get => "5*"; }
-        public override string Submitted { get => DateTime.Now.ToString(); }
-
+        public override string Submitted  { get => DateTime.Now.ToString(); }
+        
         protected override string Do(string input)
         {
-            return (input != null ? input.ToString() : "NULL");
+            return(input != null ? input.ToString() : "NULL");
         }
 
-        public override IEnumerable<ChallengeInputOutput<string, string>> Input()
+        public override IEnumerable<ChallengeInputOutput<string,string>> Input()
         {
             var inputs = new ChallengeInputOutputCollection<string, string>();
 

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Timers;
 
-namespace C0.CodechefChallenges.Extra
+namespace C0.Challenges.Codechef.Extra
 {
     abstract class Philosopher
     {

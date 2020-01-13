@@ -44,9 +44,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\C0.CodechefChallenges\C0.CodechefChallenges.csproj">
+    <ProjectReference Include="..\C0.Challenges.Codechef\C0.Challenges.Codechef.csproj">
       <Project>{fdc3ab4f-ec74-4b24-972f-40c83fb68357}</Project>
-      <Name>C0.CodechefChallenges</Name>
+      <Name>C0.Challenges.Codechef</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
